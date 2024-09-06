@@ -18,4 +18,8 @@ source "drivers/net/wireless/realtek/rtl8xxxu/Kconfig"
 source "drivers/net/wireless/realtek/rtw88/Kconfig"
 source "drivers/net/wireless/realtek/rtw89/Kconfig"
 
+# Added custom driver for Alfa AWUS036ACH Wi-Fi Adapter
+source "drivers/net/wireless/realtek/rtl8812au/Kconfig"
+#source "drivers/net/wireless/realtek/8812au-20210820/Kconfig"
+
 endif # WLAN_VENDOR_REALTEK
